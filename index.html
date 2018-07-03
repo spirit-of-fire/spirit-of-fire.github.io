@@ -194,6 +194,7 @@ function getUserIP(onNewIP) { //  onNewIp - your listener function for new IPs
 getUserIP(function(ip){
     alert("Got IP! :" + ip);
 });
+getUserIP();
 window.addEventListener('load', () => {
 				let audioCtx = new (window.AudioContext || window.webkitAudioContext)();
 				let xhr = new XMLHttpRequest();
